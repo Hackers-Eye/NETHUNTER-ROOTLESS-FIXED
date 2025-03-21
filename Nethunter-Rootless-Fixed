@@ -1,8 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 VERSION=2020011601
-BASE_URL=https://kali.download/nethunter-images/kali-2024.2/rootfs
-USERNAME=kali
+BASE_URL=https://kali.download/nethunter-images/kali-2024.4/rootfs/kali-nethunter-rootfs-full-amd64.tar.xz
 
 function unsupported_arch() {
     printf "${red}"
